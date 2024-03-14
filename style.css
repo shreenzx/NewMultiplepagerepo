@@ -1,0 +1,26 @@
+body{
+    background: url("./background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgb(11, 11, 3);
+    opacity:1;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    border: 5px solid black;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+img:hover{
+    opacity: 0.2;
+}
